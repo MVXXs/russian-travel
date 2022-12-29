@@ -5,7 +5,7 @@
     margin: 92px auto 24px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 540px){
     .footer{
         width: calc(100% - 2 * 16px);
         margin: 64px auto 24px;
@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 540px) and (max-width: 768px){
     .footer{
         width: calc(100% - 2 * 24px);
         margin: 88px auto 24px;

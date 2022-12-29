@@ -7,7 +7,11 @@
     padding-bottom: 80px;
 }
 
-@media screen and (max-width: 425px){
+.place:last-of-type{
+    padding: 0;
+}
+
+@media screen and (max-width: 540px){
     .place{
         grid-template-areas: 
         'header'
@@ -19,7 +23,7 @@
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 540px) and (max-width: 768px){
     .place{
         gap: 48px 28px;
         padding-bottom: 73px;

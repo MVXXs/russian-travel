@@ -4,13 +4,13 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 540px){
     .intro {
         width: calc(100% - 2 * 16px);
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 540px) and (max-width: 768px){
     .intro {
         width: calc(100% - 2 * 24px);
     }
