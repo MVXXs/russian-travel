@@ -5,14 +5,14 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 722px){
     .places{
         width: 100%;
         margin: 0;
     }
 }
 
-@media screen and (min-width: 540px) and (max-width: 768px){
+@media screen and (min-width: 722px) and (max-width: 768px){
     .places{
         width: calc(100% - 2 * 24px);
     }
