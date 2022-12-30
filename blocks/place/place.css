@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 722px){
+@media screen and (max-width: 721px){
     .place{
         grid-template-areas: 
         'header'
@@ -20,10 +20,11 @@
         'paragraph';
         gap: 32px;
         padding-bottom: 50px;
+        margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 722px) and (max-width: 768px){
+@media screen and (min-width: 722px) and (max-width: 1023px){
     .place{
         gap: 48px 28px;
         padding-bottom: 73px;
